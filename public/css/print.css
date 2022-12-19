@@ -1,0 +1,7 @@
+@media print {
+
+nav, header, #btnPanel, th:nth-child(5), td:nth-child(5), #markCheckbox, input[type=checkbox]  {
+    display:none
+}
+
+}
