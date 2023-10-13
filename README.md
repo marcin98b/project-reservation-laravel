@@ -50,11 +50,12 @@ sail up
 php artisan storage:link
 sudo chmod o+w ./storage/ -R
 ```
-8. Run migrations, DB seeds and create production build using npm
+8. Run migrations, DB seeds, create production build using npm and run.
 ```
 php artisan migrate:fresh
 php artisan db:seed
 npm run build
+php artisan serve
 ```
 ## Containers
 - Laravel app - laravel.system-ocen :80
