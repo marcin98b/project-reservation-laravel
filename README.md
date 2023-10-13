@@ -37,7 +37,6 @@ php artisan key:generate
 ```
 5. Install frontend packages using npm
 ```
-rm -r node_modules/
 npm install --legacy-peer-deps
 ```
 6. Run app using Laravel Sail (Docker)
@@ -54,7 +53,7 @@ sudo chmod o+w ./storage/ -R
 ```
 php artisan migrate:fresh
 php artisan db:seed
-npm run build
+npm run dev
 php artisan serve
 ```
 ## Containers
